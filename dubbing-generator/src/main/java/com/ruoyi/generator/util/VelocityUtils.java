@@ -5,9 +5,9 @@ import java.util.HashSet;
 import java.util.List;
 import org.apache.velocity.VelocityContext;
 import com.alibaba.fastjson.JSONObject;
-import com.bubbing.common.constant.GenConstants;
-import com.bubbing.common.utils.DateUtils;
-import com.bubbing.common.utils.StringUtils;
+import com.ruoyi.common.constant.GenConstants;
+import com.ruoyi.common.utils.DateUtils;
+import com.ruoyi.common.utils.StringUtils;
 import com.ruoyi.generator.domain.GenTable;
 import com.ruoyi.generator.domain.GenTableColumn;
 

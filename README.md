@@ -44,3 +44,7 @@
 
 ## redis 启动命令
 .\redis-server redis.windows.conf
+
+腾讯云 106.52.252.177 root LiuMing@123
+mysql 106.52.252.177 root 123456
+redis 106.52.252.177 root 端口默认

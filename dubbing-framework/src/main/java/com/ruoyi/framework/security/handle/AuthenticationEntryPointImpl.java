@@ -8,10 +8,10 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.stereotype.Component;
 import com.alibaba.fastjson.JSON;
-import com.bubbing.common.constant.HttpStatus;
-import com.bubbing.common.core.domain.AjaxResult;
-import com.bubbing.common.utils.ServletUtils;
-import com.bubbing.common.utils.StringUtils;
+import com.ruoyi.common.constant.HttpStatus;
+import com.ruoyi.common.core.domain.AjaxResult;
+import com.ruoyi.common.utils.ServletUtils;
+import com.ruoyi.common.utils.StringUtils;
 
 /**
  * 认证失败处理类 返回未授权

@@ -8,14 +8,14 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.stereotype.Component;
-import com.bubbing.common.annotation.DataScope;
-import com.bubbing.common.core.domain.BaseEntity;
-import com.bubbing.common.core.domain.entity.SysRole;
-import com.bubbing.common.core.domain.entity.SysUser;
-import com.bubbing.common.core.domain.model.LoginUser;
-import com.bubbing.common.utils.ServletUtils;
-import com.bubbing.common.utils.StringUtils;
-import com.bubbing.common.utils.spring.SpringUtils;
+import com.ruoyi.common.annotation.DataScope;
+import com.ruoyi.common.core.domain.BaseEntity;
+import com.ruoyi.common.core.domain.entity.SysRole;
+import com.ruoyi.common.core.domain.entity.SysUser;
+import com.ruoyi.common.core.domain.model.LoginUser;
+import com.ruoyi.common.utils.ServletUtils;
+import com.ruoyi.common.utils.StringUtils;
+import com.ruoyi.common.utils.spring.SpringUtils;
 import com.ruoyi.framework.web.service.TokenService;
 
 /**
@@ -58,7 +58,7 @@ public class DataScopeAspect
     public static final String DATA_SCOPE = "dataScope";
 
     // 配置织入点
-    @Pointcut("@annotation(com.bubbing.common.annotation.DataScope)")
+    @Pointcut("@annotation(com.ruoyi.common.annotation.DataScope)")
     public void dataScopePointCut()
     {
     }

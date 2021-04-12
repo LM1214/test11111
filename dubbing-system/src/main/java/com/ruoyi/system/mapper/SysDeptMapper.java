@@ -2,7 +2,7 @@ package com.ruoyi.system.mapper;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
-import com.bubbing.common.core.domain.entity.SysDept;
+import com.ruoyi.common.core.domain.entity.SysDept;
 
 /**
  * 部门管理 数据层

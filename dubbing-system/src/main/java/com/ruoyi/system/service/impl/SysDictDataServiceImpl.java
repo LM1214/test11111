@@ -3,8 +3,8 @@ package com.ruoyi.system.service.impl;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.bubbing.common.core.domain.entity.SysDictData;
-import com.bubbing.common.utils.DictUtils;
+import com.ruoyi.common.core.domain.entity.SysDictData;
+import com.ruoyi.common.utils.DictUtils;
 import com.ruoyi.system.mapper.SysDictDataMapper;
 import com.ruoyi.system.service.ISysDictDataService;
 

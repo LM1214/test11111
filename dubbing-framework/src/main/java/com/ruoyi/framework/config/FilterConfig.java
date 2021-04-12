@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import com.bubbing.common.filter.RepeatableFilter;
-import com.bubbing.common.filter.XssFilter;
-import com.bubbing.common.utils.StringUtils;
+import com.ruoyi.common.filter.RepeatableFilter;
+import com.ruoyi.common.filter.XssFilter;
+import com.ruoyi.common.utils.StringUtils;
 
 /**
  * Filter配置

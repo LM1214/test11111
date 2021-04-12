@@ -10,12 +10,12 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.NoHandlerFoundException;
-import com.bubbing.common.constant.HttpStatus;
-import com.bubbing.common.core.domain.AjaxResult;
-import com.bubbing.common.exception.BaseException;
-import com.bubbing.common.exception.CustomException;
-import com.bubbing.common.exception.DemoModeException;
-import com.bubbing.common.utils.StringUtils;
+import com.ruoyi.common.constant.HttpStatus;
+import com.ruoyi.common.core.domain.AjaxResult;
+import com.ruoyi.common.exception.BaseException;
+import com.ruoyi.common.exception.CustomException;
+import com.ruoyi.common.exception.DemoModeException;
+import com.ruoyi.common.utils.StringUtils;
 
 /**
  * 全局异常处理器

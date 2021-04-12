@@ -1,8 +1,8 @@
 package com.ruoyi.system.service;
 
 import java.util.List;
-import com.bubbing.common.core.domain.entity.SysDictData;
-import com.bubbing.common.core.domain.entity.SysDictType;
+import com.ruoyi.common.core.domain.entity.SysDictData;
+import com.ruoyi.common.core.domain.entity.SysDictType;
 
 /**
  * 字典 业务层

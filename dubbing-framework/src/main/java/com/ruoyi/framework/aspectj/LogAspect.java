@@ -19,14 +19,14 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.HandlerMapping;
 import com.alibaba.fastjson.JSON;
-import com.bubbing.common.annotation.Log;
-import com.bubbing.common.core.domain.model.LoginUser;
-import com.bubbing.common.enums.BusinessStatus;
-import com.bubbing.common.enums.HttpMethod;
-import com.bubbing.common.utils.ServletUtils;
-import com.bubbing.common.utils.StringUtils;
-import com.bubbing.common.utils.ip.IpUtils;
-import com.bubbing.common.utils.spring.SpringUtils;
+import com.ruoyi.common.annotation.Log;
+import com.ruoyi.common.core.domain.model.LoginUser;
+import com.ruoyi.common.enums.BusinessStatus;
+import com.ruoyi.common.enums.HttpMethod;
+import com.ruoyi.common.utils.ServletUtils;
+import com.ruoyi.common.utils.StringUtils;
+import com.ruoyi.common.utils.ip.IpUtils;
+import com.ruoyi.common.utils.spring.SpringUtils;
 import com.ruoyi.framework.manager.AsyncManager;
 import com.ruoyi.framework.manager.factory.AsyncFactory;
 import com.ruoyi.framework.web.service.TokenService;
@@ -44,7 +44,7 @@ public class LogAspect
     private static final Logger log = LoggerFactory.getLogger(LogAspect.class);
 
     // 配置织入点
-    @Pointcut("@annotation(com.dubbing.common.annotation.Log)")
+    @Pointcut("@annotation(com.ruoyi.common.annotation.Log)")
     public void logPointCut()
     {
     }

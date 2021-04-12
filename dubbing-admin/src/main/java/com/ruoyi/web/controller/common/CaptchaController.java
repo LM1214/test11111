@@ -12,11 +12,11 @@ import org.springframework.util.FastByteArrayOutputStream;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.google.code.kaptcha.Producer;
-import com.bubbing.common.constant.Constants;
-import com.bubbing.common.core.domain.AjaxResult;
-import com.bubbing.common.core.redis.RedisCache;
-import com.bubbing.common.utils.sign.Base64;
-import com.bubbing.common.utils.uuid.IdUtils;
+import com.ruoyi.common.constant.Constants;
+import com.ruoyi.common.core.domain.AjaxResult;
+import com.ruoyi.common.core.redis.RedisCache;
+import com.ruoyi.common.utils.sign.Base64;
+import com.ruoyi.common.utils.uuid.IdUtils;
 
 /**
  * 验证码操作处理

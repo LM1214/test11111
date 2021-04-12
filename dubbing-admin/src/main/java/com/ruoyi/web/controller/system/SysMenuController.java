@@ -2,7 +2,7 @@ package com.ruoyi.web.controller.system;
 
 import java.util.List;
 
-import com.bubbing.common.annotation.Log;
+import com.ruoyi.common.annotation.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
@@ -15,16 +15,16 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bubbing.common.constant.Constants;
-import com.bubbing.common.constant.UserConstants;
-import com.bubbing.common.core.controller.BaseController;
-import com.bubbing.common.core.domain.AjaxResult;
-import com.bubbing.common.core.domain.entity.SysMenu;
-import com.bubbing.common.core.domain.model.LoginUser;
-import com.bubbing.common.enums.BusinessType;
-import com.bubbing.common.utils.SecurityUtils;
-import com.bubbing.common.utils.ServletUtils;
-import com.bubbing.common.utils.StringUtils;
+import com.ruoyi.common.constant.Constants;
+import com.ruoyi.common.constant.UserConstants;
+import com.ruoyi.common.core.controller.BaseController;
+import com.ruoyi.common.core.domain.AjaxResult;
+import com.ruoyi.common.core.domain.entity.SysMenu;
+import com.ruoyi.common.core.domain.model.LoginUser;
+import com.ruoyi.common.enums.BusinessType;
+import com.ruoyi.common.utils.SecurityUtils;
+import com.ruoyi.common.utils.ServletUtils;
+import com.ruoyi.common.utils.StringUtils;
 import com.ruoyi.framework.web.service.TokenService;
 import com.ruoyi.system.service.ISysMenuService;
 

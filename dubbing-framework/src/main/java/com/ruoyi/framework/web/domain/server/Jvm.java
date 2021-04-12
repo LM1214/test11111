@@ -1,8 +1,8 @@
 package com.ruoyi.framework.web.domain.server;
 
 import java.lang.management.ManagementFactory;
-import com.bubbing.common.utils.Arith;
-import com.bubbing.common.utils.DateUtils;
+import com.ruoyi.common.utils.Arith;
+import com.ruoyi.common.utils.DateUtils;
 
 /**
  * JVM相关信息
